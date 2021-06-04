@@ -1,0 +1,67 @@
+.bgr-color {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgba(0, 183, 255, 0.050);
+}
+
+.bgr-color a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.bgr-color a:hover {
+    color: #8a8a8a;
+}
+
+.contact-page h1 {
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.contact-page h1 span {
+    position: absolute;
+    top: -4rem;
+}
+
+.contact-page p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.bgr-color h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+
+.bgr-color p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.bgr-color p span {
+    font-weight: bold;
+}
+
+.bgr-color p a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.bgr-color p a:hover {
+    text-decoration: underline;
+}
+
+.grid-template {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icon {
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+}

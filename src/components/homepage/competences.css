@@ -1,0 +1,59 @@
+.all-comp {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-comp h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    padding-bottom: 0;
+    text-align: start;
+    position: relative;
+}
+
+.all-comp h3 span {
+    position: absolute;
+    top: -4rem;
+}
+
+.tech {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.tech-sect {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgba(0, 183, 255, 0.050);
+}
+
+.tech-sect p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.all-comp section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 450px) {
+    .tech {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .tech {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .tech {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr
+    }
+}

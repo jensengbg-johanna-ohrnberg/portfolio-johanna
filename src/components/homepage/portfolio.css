@@ -1,0 +1,57 @@
+.portfolio-page h1 {
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.portfolio-page h1 span {
+    position: absolute;
+    top: -4rem;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.portfolio-grid .bgr-color p a {
+    color: #818181;
+}
+
+.portfolio-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portfolio-grids .bgr-color .intelium-img,
+.portfolio-grids .bgr-color .mcub-img {
+    width: 30rem;
+    padding: 2rem;
+}
+
+.portfolio-grids .bgr-color .intelium-img:hover,
+.portfolio-grids .bgr-color .mcub-img:hover {
+    transform: scale(1.5);
+}
+
+.portfolio-grids .bgr-color .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-grids .bgr-color .row img {
+    width: 15rem;
+    padding: 2rem;
+}
+
+.portfolio-grids .bgr-color .row img:hover {
+    transform: scale(1.5);
+}
+
+.portfolio-grids .bgr-color p a {
+    color: #818181;
+}

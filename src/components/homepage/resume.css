@@ -1,0 +1,66 @@
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+h1 span {
+    position: absolute;
+    top: -4rem;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 2rem;
+    padding-bottom: 0;
+    text-align: start;
+}
+
+.bgr-color {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgba(0, 183, 255, 0.050);
+}
+
+.bgr-color h5 {
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+
+.bgr-color p {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+@media only screen and (min-width: 450px) {
+    .grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr
+    }
+}

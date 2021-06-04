@@ -1,0 +1,20 @@
+.home-page {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-page h1 {
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+
+.home-page p {
+    font-family: 'PT Sans', sans-serif;
+    margin: 1rem;
+    width: 60%;
+    line-height: 32px;
+}
