@@ -32,7 +32,7 @@
 
 .portfolio-grids .bgr-color .intelium-img:hover,
 .portfolio-grids .bgr-color .mcub-img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .portfolio-grids .bgr-color .row {
@@ -49,7 +49,7 @@
 }
 
 .portfolio-grids .bgr-color .row img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .portfolio-grids .bgr-color p a {
